@@ -18,16 +18,27 @@
   color: #fff;
 }
 
-.footer-contato li {
-  font-weight: bold;
-  font-size: 2.25rem;
-  line-height: 1.1;
-  color: #fff;
-  margin-bottom: 30px;
+.footer-contato {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
 }
 
-.footer-contato li a {
-  color: #fff;
+.footer-contato li {
+  display: flex;
+}
+
+.footer-contato img {
+  width: 70px; /* Define o tamanho das imagens */
+  height: 70px; /* Define o tamanho das imagens */
+  transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.footer-contato img:hover {
+  transform: scale(1.2); /* Aumenta o tamanho da imagem ao passar o mouse */
 }
 
 .footer-copy {

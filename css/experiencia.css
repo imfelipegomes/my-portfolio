@@ -9,6 +9,7 @@
 
 .experiencia .subtitulo {
   color: #e0e0e0;
+  text-transform: uppercase;
 }
 
 .experiencia-texto {
@@ -39,7 +40,7 @@
   display: block;
   width: 4px;
   height: 20px;
-  background: #FF6347;
+  background: #ff8000;
   position: absolute;
   top: 20px;
   left: -4px;
@@ -84,13 +85,14 @@
   padding: 7px 10px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 820px) {
   .experiencia {
     grid-template-columns: 1fr;
     gap: 40px;
   }
   .experiencia .subtitulo {
-    color: #141414;
+    color: #e0e0e0;
+    text-transform: uppercase;
   }
   .experiencia-texto {
     font-size: 1.25rem;

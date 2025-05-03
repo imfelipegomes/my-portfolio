@@ -15,6 +15,7 @@
 .formacao .subtitulo {
   color: #000;
   max-width: 5ch;
+  text-transform: uppercase;
 }
 
 .formacao-texto {
@@ -65,7 +66,7 @@
   display: block;
   width: 4px;
   height: 20px;
-  background: #ff6347;
+  background: #ff8000;
   position: absolute;
   left: -24px;
 }
@@ -120,7 +121,7 @@
   justify-content: space-between;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 820px) {
   .formacao-container {
     grid-template-columns: 1fr;
     padding: 60px 20px;
@@ -132,8 +133,7 @@
   .formacao-texto {
     font-size: 1.25rem;
   }
-  .formacao-extra::before {
-    position: initial;
-    margin-bottom: 10px;
+  .formacao-extra {
+    padding: 0 40px;
   }
 }

@@ -33,7 +33,7 @@ img {
   max-width: 4ch; /* ch é o caractere 0, quando tover bem espaçada, vai quebrar no 4º caractere */
 }
 
-@media (max-width: 800px) {
+@media (max-width: 820px) {
   .subtitulo {
     font-size: 3rem;
     text-transform: capitalize;

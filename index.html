@@ -12,19 +12,28 @@
   <link rel="stylesheet" href="./css/introducao.css">
   <link rel="stylesheet" href="./css/experiencia.css">
   <link rel="stylesheet" href="./css/formacao.css">
+  <link rel="stylesheet" href="./css/projetos.css">
   <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/menu-mobile.css">
 </head>
 
 <body>
   <!-- Menu -->
   <header class="header">
-    <img src="./img/imfelipegomes-logo.png" alt="Logo">
-    <nav>
-      <ul class="header-menu">
+    <img src="./img/logotipo.png" alt="Logo" class="header-logo">
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="header-menu" aria-expanded="false">
+        <span id="hamburguer"></span>
+      </button>
+      <ul class="header-menu" role="menu">
         <li><a href="#experiencia">Experiência</a></li>
         <li><a href="#formacao">Formação</a></li>
         <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#eventos">Eventos</a></li>
         <li><a href="#contato">Contato</a></li>
+        <li class="dark-mode-toggle-container">
+          </button>
+        </li>
       </ul>
     </nav>
   </header>
@@ -34,38 +43,34 @@
     <img src="./img/imfelipegomes-perfil.png" alt="Foto de perfil">
     <div>
       <h1>Desenvolvedor Júnior</h1>
-      <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
+      <p>Supervisor de E-commerce e Estudante de Análise e Desenvolvimento de Sistemas</p>
     </div>
   </main>
 
-  <!-- Experiências -->
+  <!-- Experiência -->
   <section class="experiencia" id="experiencia" aria-label="Experiência">
-    <h2 class="subtitulo">Experiência</h2>
+    <h2 class="subtitulo">EXPERIÊNCIA</h2>
     <div>
-      <p class="experiencia-texto">Lorem ipsum <strong>dolor</strong>, sit amet consectetur adipisicing elit. Nisi, ad eius! Eligendi quidem <strong>temporibus</strong> hic dignissimos tempora optio ullam, delectus voluptatibus, excepturi.</p>
+      <p class="experiencia-texto">Atualmente sou Supervisor de E-commerce, mas em transição de carreira para a área de Desenvolvimento. Em meus 7 anos de e-commerce, criei lojas virtuais e sites do zero, usando ferramentas e plataformas diversas, como Marketplaces, Shopify, Magento, Nuvemshop, WordPress + Elementor, ERPs, Hubs, etc.</p>
 
       <div class="empresa">
         <span class="empresa-ano">2024/Atual</span>
         <h3 class="empresa-titulo">Arte Farma (Casa das Gôndolas)</h3>
         <span class="empresa-titulo">Supervisor de E-commerce</span>
-        <p class="empresa-texto">Responsável pela supervisão e estratégia de vendas de toda operação. Contamos hoje com mais de 10 colaboradores e 300.000/mês de faturamento. Minhas responsabilidades são pensar em estratégias que alavanquem os resultados em vendas, encontrar novas oportunidades de produtos, supervisionar e manter os processos, cortar gastos e resolver problemas críticos com clientes. Emissão de relatórios, métricas e dados para tomadas de decisões.</p>
+        <p class="empresa-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptatem, voluptate voluptates maiores aperiam amet odio porro ut. Labore neque nemo debitis odit quia esse. Obcaecati quam maxime nemo quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo illum nostrum in quidem inventore porro corrupti nam doloremque.</p>
         <ul class="empresa-habilidades">
           <li>Bling</li>
-          <li>Mercado Livre</li>
-          <li>Shopee</li>
-          <li>MadeiraMadeira</li>
-          <li>Publicidade</li>
-          <li>Nubimetrics</li>
-          <li>Real Trends</li>
+          <li>Marketplaces</li>
+          <li>Nuvemshop</li>
+          <li>Frete Rápido</li>
           <li>Avant Pro</li>
+          <li>Nubimetrics</li>
+          <li>Go Bots</li>
           <li>Excel</li>
-          <li>Tiny Olist</li>
-          <li>Frenet/Melhor Envio</li>
-          <li>Estrategista</li>
-          <li>Instinto técnico e lógico para criar processos personalizados</li>
-          <li>Comunicativo e transparente</li>
-          <li>Análítico e baseado em números e dados</li>
-          <li>Solucionador de problemas</li>
+          <li>Melhor Envio</li>
+          <li>Frenet</li>
+          <li>Google Analytics</li>
+          <li>Canva</li>
         </ul>
       </div>
 
@@ -73,40 +78,29 @@
         <span class="empresa-ano">2023/2024</span>
         <h3 class="empresa-titulo">Futura Import (Cadeiras INC e Baba Shop)</h3>
         <span class="empresa-titulo">Analista de E-commerce Pleno/Sênior</span>
-        <p class="empresa-texto">Responsável por realizar a precificação, gestão de promoções na plataforma e gestores de conta, criação do absoluto zero dos anúncios (análise de mercado e concorrência, criação do título, descrição, características, etc), acompanhamento de vendas, testes a/b, gestão de estoque junto a logística, criação de processos personalizados de acordo com nossas necessidas nas ferramentas ERPs.</p>
+        <p class="empresa-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptatem, voluptate voluptates maiores aperiam amet odio porro ut. Labore neque nemo debitis odit quia esse. Obcaecati quam maxime nemo quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo illum nostrum in quidem inventore porro corrupti nam doloremque.</p>
         <ul class="empresa-habilidades">
           <li>Alternativa Sistemas</li>
           <li>AnyMarket</li>
           <li>Excel</li>
           <li>Real Trends</li>
           <li>Avant Pro</li>
-          <li>Tray Commerce</li>
-          <li>Mercado Livre, Shopee, MadeiraMadeira, Magalu, Americanas, Mobly, etc</li>
-          <li>Organizado</li>
-          <li>Pensamento lógico</li>
-          <li>Estrategista</li>
-          <li>Marketeiro e vendedor</li>
+          <li>Marketplaces</li>
         </ul>
       </div>
 
       <div class="empresa">
-        <span class="empresa-ano">2022/2023</span>
-        <h3 class="empresa-titulo">JetFilm Shop</h3>
-        <span class="empresa-titulo">Analista de E-commerce Júnior</span>
-        <p class="empresa-texto">Responsável por criar anúncios do absoluto zero, analisar concorrência e mercado, procurar novas possibilidades de produtos. Gestão e organização do estoque com ERP. Responsável pelo setor de atendimento junto ao cliente para propor soluções e sanar suas dúvidas. Criação da loja virtual através da plataforma Loja Integrada e criação de Banners e imagens para a loja e redes sociais. Manutenção e edição do site institucional através de HTML e CSS pela plataforma WordPress.</p>
+        <span class="empresa-ano">2019/2021</span>
+        <h3 class="empresa-titulo">Freelancer - Desenvolvedor</h3>
+        <span class="empresa-titulo">Serviços de Desenvolvimento, designer e e-commerce</span>
+        <p class="empresa-texto">Criação de sites, blogs e lojas virtuais para pequenas empresas e profissionais autônomos. Criação dos sites e blogs através da plataforma WordPress + Elementor e seus pugins e em alguns casos com código HTML, CSS e um pouco de JavaScript e PHP. Criava tudo do absoluto zero, até a compra do domínio e hospedagem, caso o cliente não tivesse essa expertise. Todo desenvolvimento, design, UX/UI, design era de minha responsabilidade, fazendo um pouco de tudo, acabei de me desenvolvendo bastante e aprendendo muito, na prática, no campo de batalha. Essa experiência me fez ver todo o processo de desenvolvimento, criação, negociação com cliente, suporte, manutenção e funcionamento desses projetos na totalidade e não só como um arrasta e solta ou código, me deu uma expertise e experiência muito grande com clientes, percebendo que o desenvolvimento não é apenas código, mas entender exatamente o que o cliente precisa e sanar a sua dor através de um serviço personalizado.
+        </p>
         <ul class="empresa-habilidades">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Bling</li>
-          <li>Canva</li>
-          <li>Mercado Livre</li>
-          <li>Shopee</li>
-          <li>Nuvemshop</li>
-          <li>WordPress</li>
+          <li>Tiny</li>
+          <li>Ideris</li>
           <li>Excel</li>
-          <li>Criativo para pensar em design para tudo</li>
-          <li>Me virei nos 30, fiz um pouco de tudo</li>
-          <li>Pensamento lógico para criar todos os nossos processos junto as ferramentas</li>
+          <li>Loja Integrada</li>
+          <li>Marketplaces</li>
         </ul>
       </div>
 
@@ -114,26 +108,22 @@
         <span class="empresa-ano">2019/2021</span>
         <h3 class="empresa-titulo">Nightech Importação e Exportação (Robomix MegaStore)</h3>
         <span class="empresa-titulo">Assistente de E-commerce</span>
-        <p class="empresa-texto">Realizava a gestão e organização do estoque físico dos itens e em sistema ERP. Separava, emabalava e enviava todos os pedidos a agência cumprindo com os prazos. Atendia aos clientes para sanar suas dúvidas e resolver problemas. Criava os anúncios, tirava fotos e filmava, criava as descrições, títulos e organizava devoluções de vendas. Fazia toda gestão e organização de etiquetas junto a plataforma da loja virtual e criava os fretes para os clientes.</p>
+        <p class="empresa-texto">Administrador das contas de marketplaces (Mercado Livre, Shopee, Amazon e B2W), loja virtual (Loja Integrada) realizando atividades como: cadastro de produtos, atendimento ao cliente em dúvidas e resolução de problemas e reclamações, embalo e despacho dos produtos em agências e correios, controle de estoque (Pela própria plataforma ou Bling), controle de estoque físico, contato com clientes em potenciais e parceiros do negócio (Empresa terceira de Mercado Envios. Flex e Full, Transportadoras Terceiras).
+        </p>
         <ul class="empresa-habilidades">
           <li>Tiny</li>
           <li>Ideris</li>
           <li>Excel</li>
           <li>Loja Integrada</li>
-          <li>Mercado Livre</li>
-          <li>Shopee</li>
-          <li>Magalu</li>
-          <li>Determinado</li>
-          <li>Desenrolado, aqui eu aprendi quase tudo sozinho, sem nenhum mentor</li>
-          <li>Instinto criativo, foi necessário para criar design e estrutura da loja virtual, aqui conheci um pouquinho de HTML e CSS</li>
+          <li>Marketplaces</li>
         </ul>
       </div>
 
       <div class="empresa">
         <span class="empresa-ano">2014/2015</span>
-        <h3 class="empresa-titulo">Carrefour</h3>
-        <span class="empresa-titulo">Jovem Aprendiz</span>
-        <p class="empresa-texto">Foi uma excelente experiência, na qual passei por vários setores, como T.I, RH, administrativo, estoque, logística, comercial e operacional e pude aprender muito sobre organização, pensar sempre no cliente, vendas, a importância de seguir processos e como se portar no ambiente de trabalho.</p>
+        <h3 class="empresa-titulo">UdLog Armazéns Gerais Transporte e Logística</h3>
+        <span class="empresa-titulo">Jovem Aprendiz Administrativo</span>
+        <p class="empresa-texto">Assistente de portaria, controlador de acesso de veículos e pessoas, assistente administrativo, assistente logístico, organização de arquivos, preenchimento de planilhas, atendimento telefônico, e-mail interno e externo para clientes, check-list de veículos afim de assegurar o frete e qualidade dos veículos.</p>
         <ul class="empresa-habilidades">
           <li>Organização</li>
           <li>Empatia</li>
@@ -142,6 +132,7 @@
           <li>Pró-ativo</li>
           <li>Excel</li>
           <li>Powerpoint</li>
+          <li>Sistema próprio da empresa</li>
         </ul>
       </div>
     </div>
@@ -150,37 +141,38 @@
   <!-- Formação -->
   <section class="formacao" id="formacao" aria-label="Formação">
     <div class="formacao-container">
-      <h2 class="subtitulo">Formação</h2>
+      <h2 class="subtitulo">FORMAÇÃO</h2>
 
       <div>
-        <p class="formacao-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tempora necessitatibus architecto perspiciatis <strong>beatae rerum</strong> laborum nisi commodi dolor ipsa animi accusamus labore dolores aliquam <strong>iusto</strong> tenetur, doloremque cum laudantium!
+        <p class="formacao-texto">Formado em Tecnólogo em Marketing e um apaixonado pelos estudos e por aprender, ao longo dos últimos anos, venho me empenhando e me desenvolvendo para ingressar em Desenvolvimento. Atualmente faço ADS e com término para Dezembro/2025, Bootcamp e cursos avançados que possam me ajudar a ser um ótimo profissional do ramo, além de eventos que possam somar em meu aprendizado, como pode ver na seção de Eventos.
         </p>
         <ul class="faculdade-lista">
           <li class="faculdade">
-            <span class="faculdade-tipo">Tecnólogo</span> <!-- Posso utilizar o span para um texto/título sem sentido ou " importância" semântica -->
+            <span class="faculdade-tipo">Tecnólogo | Em andamento</span> <!-- Posso utilizar o span para um texto/título sem sentido ou " importância" semântica -->
             <h3 class="faculdade-curso">Análise e Desenvolvimento de Sistemas</h3>
             <span class="faculdade-instituicao">UniAmérica | Descomplica</span>
           </li>
           <li class="faculdade">
-            <span class="faculdade-tipo">Tecnólogo</span> <!-- Posso utilizar o span para um texto/título sem sentido ou " importância" semântica -->
-            <h3 class="faculdade-curso">Análise e Desenvolvimento de Sistemas</h3>
-            <span class="faculdade-instituicao">UniAmérica | Descomplica</span>
+            <span class="faculdade-tipo">BootCamp | Finalizado</span>
+            <h3 class="faculdade-curso">BaseFront - Imersão em Front-end</h3>
+            <span class="faculdade-instituicao">Frontbase - Gabriel Salvador</span>
           </li>
           <li class="faculdade">
-            <span class="faculdade-tipo">Bacharel</span> <!-- Posso utilizar o span para um texto/título sem sentido ou " importância" semântica -->
-            <h3 class="faculdade-curso">Análise e Desenvolvimento de Sistemas</h3>
-            <span class="faculdade-instituicao">UniAmérica | Descomplica</span>
+            <span class="faculdade-tipo">Formação | Em andamento</span>
+            <h3 class="faculdade-curso">PHP Programando com Orientação a Objetos e Design Patterns</h3>
+            <span class="faculdade-instituicao">Adianti Solutions - Pablo Dall'oglio</span>
           </li>
         </ul>
 
         <div class="formacao-extra">
           <div class="cursos">
-            <h3>Cursos Intensivos</h3>
+            <h3>Cursos Extras</h3>
             <ul>
-              <li>UX Design <span>56h</span></li>
-              <li>Front-end para iniciantes <span>30h</span></li>
-              <li>Git e GitHub do básico ao avançado <span>40h</span></li>
-              <li>PHP completo <span>80h</span></li>
+              <li>Origamid - Front End e UX/UI Design <span>168h</span></li>
+              <li>Web Front-end: HTML, CSS, Lógica de programação e Javascript <span>127h</span></li>
+              <li>Git e GitHub do básico ao avançado (c/ gist e GitHub Pages) <span>8h</span></li>
+              <li>Bootstrap 5 do básico ao avançado (com 4 projetos) <span>17h</span></li>
+              <li>Lógica de programação e algoritmos <span>2,5h</span></li>
             </ul>
           </div>
 
@@ -196,18 +188,83 @@
     </div>
   </section>
 
+  <!-- Projetos -->
+  <section class="projetos" id="projetos" aria-label="Projetos">
+    <div class="projetos-container">
+      <h2 class="subtitulo">PROJETOS</h2>
+      <div class="projetos-conteudo">
+        <p class="projetos-texto">
+          Aqui estão alguns dos projetos que desenvolvi ao longo da minha jornada de aprendizado e experiência profissional. Cada projeto reflete meu progresso e dedicação ao longo do tempo.
+        </p>
+      </div>
+      <div class="projetos-grid">
+        <article class="projeto">
+          <div class="projeto-imagens">
+            <img src="./img/projeto1-1.png" alt="Imagem 1 do Projeto 1">
+            <img src="./img/projeto1-2.png" alt="Imagem 2 do Projeto 1">
+          </div>
+          <h3>Projeto 1</h3>
+          <p>Descrição breve do projeto 1. Este projeto foi desenvolvido com foco em...</p>
+        </article>
+        <article class="projeto">
+          <div class="projeto-imagens">
+            <img src="./img/projeto2-1.png" alt="Imagem 1 do Projeto 2">
+            <img src="./img/projeto2-2.png" alt="Imagem 2 do Projeto 2">
+          </div>
+          <h3>Projeto 2</h3>
+          <p>Descrição breve do projeto 2. Este projeto foi desenvolvido com foco em...</p>
+        </article>
+        <article class="projeto">
+          <div class="projeto-imagens">
+            <img src="./img/projeto3-1.png" alt="Imagem 1 do Projeto 3">
+          </div>
+          <h3>Projeto 3</h3>
+          <p>Descrição breve do projeto 3. Este projeto foi desenvolvido com foco em...</p>
+        </article>
+        <article class="projeto">
+          <div class="projeto-imagens">
+            <img src="./img/projeto4-1.png" alt="Imagem 1 do Projeto 4">
+            <img src="./img/projeto4-2.png" alt="Imagem 2 do Projeto 4">
+          </div>
+          <h3>Projeto 4</h3>
+          <p>Descrição breve do projeto 4. Este projeto foi desenvolvido com foco em...</p>
+        </article>
+        
+      </div>
+    </div>
+  </section>
+
   <footer class="footer" id="contato">
     <div class="footer-container">
-      <p class="footer-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum vel.</p>
+      <p class="footer-texto">Será um prazer, poder fazer parte do seu time e alcançar grandes resultados. Gostou do meu perfil? <strong>Entre em contato!</strong></p>
       <ul class="footer-contato">
-        <li>felipe.agomesdelima@gmail.com</li>
-        <li>+55 (11) 98463-1186</li>
-        <li><a href="https://www.linkedin.com/in/imfelipegomes/"></a>Linkedin</li>
-        <li><a href="https://github.com/imfelipegomes"></a>GitHub</li>
-      </ul>
-      <p class="footer-copy">Felipe Gomes. Todos os direitos reservados 2025.</p>
-    </div>
-  </footer>
+        <li>
+          <a href="https://wa.me/5511984631186?text=Fala%2C%20Felipe!%0AVim%20do%20seu%20portf%C3%B3lio%20e%20quero%20falar%20com%20voc%C3%AA!" target="_blank" aria-label="WhatsApp">
+            <img src="./img/whatsapp.png" alt="WhatsApp">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/imfelipegomes/" target="_blank" aria-label="LinkedIn">
+          <img src="./img/linkedin.png" alt="LinkedIn">
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/imfelipegomes" target="_blank" aria-label="GitHub">
+          <img src="./img/github.png" alt="GitHub">
+        </a>
+      </li>
+      <li>
+        <a href="https://instagram.com/imfelipegomes" target="_blank" aria-label="Instagram">
+          <img src="./img/instagram.png" alt="Instagram">
+        </a>
+      </li>
+    </ul>
+    <p class="footer-copy">Felipe Gomes. Todos os direitos reservados 2025.</p>
+  </div>
+</footer>
+
+  <script src="./js/menu-mobile.js"></script>
+  <script src="./js/dark-mode.js"></script>
 </body>
 
 </html>

@@ -10,13 +10,14 @@
 
 .introducao img {
   border-radius: 50%;
-  border: 6px solid #FF6347;
+  border: 4px solid #ff8000;
 }
 
 .introducao h1 {
   font-size: 4.5rem;
   line-height: 1.125;
   margin-bottom: 30px;
+  color: #ff8000;
 }
 
 .introducao p {
